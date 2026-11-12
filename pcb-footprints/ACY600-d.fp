@@ -1,0 +1,12 @@
+Element(0x00 "Axial non-polar component (typically resistor or capacitor)," "" "ACY600-d" 470 120 0 100 0x00)
+(
+	Pin(0 100 100 40 "1" 0x101)
+	Pin(600 100 100 40 "2" 0x01)
+	ElementLine(0 100 50 100 10)
+	ElementLine(550 100 600 100 10)
+	ElementLine(50 0 550 0 10)
+	ElementLine(550 0 550 200 10)
+	ElementLine(550 200 50 200 10)
+	ElementLine(50 200 50 0 10)
+	Mark(0 100)
+)

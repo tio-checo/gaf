@@ -1,0 +1,12 @@
+Element(0x00 "Axial non-polar component (typically resistor or capacitor) - dambi" "" "ACY300-d" 395 102 0 100 0x00)
+(
+	Pin(0 41 88 39 "1" 0x101)
+	Pin(300 41 88 39 "2" 0x01)
+	ElementLine(0 41 25 41 10)
+	ElementLine(275 41 300 41 10)
+	ElementLine(25 0 275 0 10)
+	ElementLine(275 0 275 82 10)
+	ElementLine(275 82 25 82 10)
+	ElementLine(25 82 25 0 10)
+	Mark(0 41)
+)

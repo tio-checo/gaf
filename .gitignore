@@ -1,0 +1,10 @@
+# Editor backups and recovery files
+*~
+*.orig
+*.backup
+*.bak
+
+# macOS metadata and sync artifacts
+.DS_Store
+._*
+.com-apple-bird-*

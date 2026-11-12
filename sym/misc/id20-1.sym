@@ -1,0 +1,139 @@
+v 20110115 2
+P 0 700 300 700 1 0 0
+{
+T 50 750 5 10 1 1 0 0 1
+pinnumber=4
+T 400 700 3 10 1 1 0 0 1
+pinlabel=ANT
+T -500 800 5 10 0 1 0 0 1
+pinseq=4
+T -100 700 5 10 0 1 0 0 1
+pintype=pas
+}
+P 0 300 300 300 1 0 0
+{
+T 50 350 5 10 1 1 0 0 1
+pinnumber=5
+T 400 300 3 10 1 1 0 0 1
+pinlabel=CP
+T -500 400 5 10 0 1 0 0 1
+pinseq=5
+T -100 300 5 10 0 1 0 0 1
+pintype=out
+}
+P 4000 700 3700 700 1 0 0
+{
+T 3750 750 5 10 1 1 0 0 1
+pinnumber=7
+T 2100 700 3 10 1 1 0 0 1
+pinlabel=+/- Format selector
+T 4100 700 5 10 0 1 0 0 1
+pinseq=7
+T 4100 700 5 10 0 1 0 0 1
+pintype=in
+}
+P 4000 300 3700 300 1 0 0
+{
+T 3100 300 3 10 1 1 0 0 1
+pinlabel=Future
+T 4100 300 5 10 0 1 0 0 1
+pinseq=6
+T 3750 350 5 10 1 1 0 0 1
+pinnumber=6
+T 4100 300 5 10 0 1 0 0 1
+pintype=pas
+}
+P 4000 2300 3700 2300 1 0 0
+{
+T 3750 2350 5 10 1 1 0 0 1
+pinnumber=11
+T 3200 2300 3 10 1 1 0 0 1
+pinlabel=VCC
+T 4100 2300 5 10 0 1 0 0 1
+pinseq=11
+T 4100 2300 5 10 0 1 0 0 1
+pintype=pwr
+}
+P 4000 1900 3700 1900 1 0 0
+{
+T 3750 1950 5 10 1 1 0 0 1
+pinnumber=10
+T 2500 1900 3 10 1 1 0 0 1
+pinlabel=LED/BEEPER
+T 4100 1900 5 10 0 1 0 0 1
+pinseq=10
+T 4100 1900 5 10 0 1 0 0 1
+pintype=out
+}
+P 4000 1500 3700 1500 1 0 0
+{
+T 3750 1550 5 10 1 1 0 0 1
+pinnumber=9
+T 3400 1500 3 10 1 1 0 0 1
+pinlabel=D0
+T 4100 1500 5 10 0 1 0 0 1
+pinseq=9
+T 4100 1500 5 10 0 1 0 0 1
+pintype=out
+}
+P 4000 1100 3700 1100 1 0 0
+{
+T 3750 1150 5 10 1 1 0 0 1
+pinnumber=8
+T 3400 1100 3 10 1 1 0 0 1
+pinlabel=D1
+T 4100 1100 5 10 0 1 0 0 1
+pinseq=8
+T 4100 1100 5 10 0 1 0 0 1
+pintype=out
+}
+P 0 1100 300 1100 1 0 0
+{
+T 400 1100 3 10 1 1 0 0 1
+pinlabel=ANT
+T 0 1200 5 10 0 1 0 0 1
+pinseq=3
+T -100 1100 5 10 0 1 0 0 1
+pintype=pas
+T 50 1150 5 10 1 1 0 0 1
+pinnumber=3
+}
+P 0 1900 300 1900 1 0 0
+{
+T 50 1950 5 10 1 1 0 0 1
+pinnumber=1
+T 400 1900 3 10 1 1 0 0 1
+pinlabel=GND
+T -500 2000 5 10 0 1 0 0 1
+pinseq=1
+T -100 1900 5 10 0 1 0 0 1
+pintype=pwr
+}
+P 0 1500 300 1500 1 0 0
+{
+T 50 1550 5 10 1 1 0 0 1
+pinnumber=2
+T 400 1500 3 10 1 1 0 0 1
+pinlabel=RES
+T -500 1600 5 10 0 1 0 0 1
+pinseq=2
+T -100 1500 5 10 0 1 0 0 1
+pintype=pas
+}
+B 300 0 3400 2600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 5300 900 8 10 0 0 0 0 1
+description=RFID reader
+T 300 2900 8 10 1 1 0 0 1
+refdes=U?
+T 5300 1800 8 10 0 0 0 0 1
+numslots=0
+T 5300 1500 8 10 0 0 0 0 1
+device=ID20
+T 5300 2100 8 10 0 0 0 0 1
+slot=1
+T 1300 2300 8 10 0 0 0 0 1
+footprint=DIP34
+T 295 2700 8 10 1 1 0 0 1
+value=ID20
+T 1495 5800 8 10 0 1 0 0 1
+vendor=soselectronic.cz

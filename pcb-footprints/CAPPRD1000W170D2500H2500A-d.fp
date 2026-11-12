@@ -1,0 +1,14 @@
+# grab the input values and convert to 1/100 mil
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
+Element[0x00000000 "Capacitors, radial IPC-7251 compliant dambi" "" "CAPPRD1000W170D2500H2500A-d" 0 0 -57181 0 0 100 ""]
+(
+# Pin[x, y, thickness, clearance, mask, drilling hole, name,
+#     number, flags
+Pin[ -19685 0  15748 3937 17748 7874 "1" "1" "square"]
+Pin[  19685 0  15748 3937 17748 7874 "2" "2" 0x0]
+# Silk screen around package
+ElementArc[0 0 51181 51181 0 360 800]
+ElementLine[ -57181 -2500 -52181 -2500 800]
+ElementLine[ -54681 -5000 -54681 0 800]
+)
